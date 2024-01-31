@@ -1,0 +1,59 @@
+.logo{
+    width: 36px;
+    height: 36px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo--title{
+    display: flex;
+    align-items: center;
+   
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.input--search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card--component {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    float: left;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 15px
+  }
+  
+.card--component:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+.container {
+    padding: 2px 16px
+  }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients{
+    background-color: green;
+    border: none;
+}
