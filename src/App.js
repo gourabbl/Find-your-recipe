@@ -32,9 +32,10 @@ export default function App() {
 
   return (
     <div>
-      <div className='logo--title'>
+      <img className='cover-image' src='../cover image.jpg' />
+      <div>
       <img className='logo' src='../Main--logo.svg' />
-      <h1>Cooked</h1>
+      <h1 className='logo--title'>Cooked</h1>
       </div>
      
     <form className='input--search' onSubmit={submit}>
